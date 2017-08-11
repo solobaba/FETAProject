@@ -1,0 +1,87 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.solobaba.fetaproject.MainActivity">
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map"/>
+
+    <ImageView
+        android:id="@+id/fetalogoo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fetalogoo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="cursive"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/fetalogoo"
+        android:text="FunKey Events Training Academy"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/textView"
+        android:layout_centerInParent="true"
+        android:text="THE COMMUNITY EVENTS ENGINE"/>
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/tagline"
+        android:layout_centerInParent="true"
+        android:paddingTop="100dp"
+        android:text="3, Onika Road, Lagos"/>
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/address1"
+        android:layout_centerInParent="true"
+        android:text="Tel: +2348035467786" />
+
+    <TextView
+        android:id="@+id/tagline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/address2"
+        android:layout_centerInParent="true"
+        android:text="Email:info@feta.ng" />
+
+    <TextView
+        android:id="@+id/address3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="cursive"
+        android:layout_below="@id/address2"
+        android:layout_centerInParent="true"
+        android:paddingTop="100dp"
+        android:text="The perfect events engine you can always trust!" />
+
+</RelativeLayout>
